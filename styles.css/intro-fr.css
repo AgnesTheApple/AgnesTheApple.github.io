@@ -1,0 +1,133 @@
+html {
+	height: 100%;
+}
+
+body {
+	padding-top: 70px;
+  font-size: 18px;
+}
+
+
+@keyframes slideup {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
+}
+
+#name {
+	animation-duration: 8s;
+  animation-name: slideup;
+}
+
+
+h1 {
+	font-family: 'Fjalla One', sans-serif;	
+	font-size: 70px;
+	margin-top: 120px;
+	margin-bottom: 10px;
+	color: #0f0f0f;
+	text-shadow: 0px 6px 13px #373737;
+				
+}
+
+h4 {
+	font-family: 'Permanent Marker', cursive;
+	color: #0f0f0f;
+	margin-top: 0;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+#name img {
+	 border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 340px;
+  }
+}
+
+#row1, #row2, #row3, #row4 {
+	border: 1px solid black;
+	background: url(../images/tyres.jpg);
+  background-size:cover;
+  background-position:center;
+	border-top-left-radius: 80px;
+	border-bottom-left-radius: 80px;
+	margin-top: 5px;
+	padding-top: 130px;
+	margin-left: 340px;
+	animation-duration: 4s;
+  animation-name: slidein;
+}
+
+	@keyframes slidein2 {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 220px;
+  }
+}
+
+#row2 {
+	animation-duration: 4s;
+  animation-name: slidein2;
+	margin-left: 220px;
+	background-image: url(../images/mushroom.jpg);
+}
+
+@keyframes slidein3 {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 110px;
+  }
+}
+	
+
+#row3 {
+	animation-duration: 4s;
+  animation-name: slidein3;
+	margin-left: 110px;
+	background-image: url(../images/beach.jpg);
+}
+
+@keyframes slidein4 {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0px;
+  }
+}
+
+#row4 {
+	animation-duration: 4s;
+  animation-name: slidein4;
+	margin-left: 0px;
+	background-image: url(../images/city.jpg);
+	margin-bottom: 5px;
+}
+
+
+
+   
+    

@@ -1,0 +1,78 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: url("../images/crops.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+
+.jumbotron {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-image: url("../images/light-wood-texture.jpg");
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+	text-shadow: 0px 4px 3px #828655,
+				 0px 8px 13px #754c2e,
+				 0px 18px 23px #cd9774;
+	text-transform: uppercase;
+}
+
+
+
+.container {
+	background-color: #daf4c6;
+	width: 75%;
+}
+
+#content {
+	padding-left: 20px;
+	border-left: 5px solid #bab9b6;
+	font-size: 1.5em;
+	text-align: justify;
+}
+
+div.button {
+	padding-top: 50%;
+}
+
+.btn-default {
+	font-weight: bold;
+	border: 1px solid black;
+}
+
+.btn-block+.btn-block {
+    margin-top: 30px;
+}
+
+a:nth-of-type(1).btn-default {
+	background-color: #c7dc70;
+}
+
+a:nth-of-type(2).btn-default {
+	background-color: #f3f0e0;
+}
+
+a:nth-of-type(3).btn-default {
+	background-color: #fecf67;
+}
+
+#quote {
+	text-align: center;
+	font-size: 1.8em;	
+	padding: 20px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#picture {
+	width: 75%;
+	text-align: center;
+	margin: auto;
+}

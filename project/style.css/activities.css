@@ -1,0 +1,77 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: url("https://images.pexels.com/photos/463052/pexels-photo-463052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-size: cover;
+	background-position: center;
+}
+
+.jumbotron {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.container {
+	background-color: #ffecbc;
+	width: 75%;	
+}
+
+.container:nth-of-type(2) {
+	margin-top: 40px;
+	background-color: #ffecbc;
+}
+
+h1 {
+	text-shadow: 0px 4px 3px #cd9774 ,
+				 0px 8px 13px #eff6a9;				
+}
+
+p {
+	font-family: 'Courgette', cursive;
+}
+
+
+div.button {
+	padding-top: 80%;
+}
+
+.btn-default {
+	font-weight: bold;
+	border: 1px solid black;
+}
+
+.btn-block+.btn-block {
+    margin-top: 30px;
+}
+
+a:nth-of-type(1).btn-default {
+	background-color: #c7dc70;
+}
+
+a:nth-of-type(2).btn-default {
+	background-color: #f3f0e0;
+}
+
+a:nth-of-type(3).btn-default {
+	background-color: #fecf67;
+}
+
+h5 {
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+
+#picture {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Kalam', cursive;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+}

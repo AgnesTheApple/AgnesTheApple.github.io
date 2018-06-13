@@ -1,0 +1,65 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: url("http://agrodaily.com/wp-content/uploads/2015/04/cotton.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.jumbotron {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: 'Fira Sans', sans-serif;
+ }
+
+h1 {
+	text-shadow: 0px 4px 3px #cd9774 ,
+				 0px 8px 13px #e2e2eb;
+				
+}
+
+
+.container {
+	background-color: #e2e2eb;
+	width: 75%;
+	
+}
+
+.container:nth-of-type(2) {
+	margin-top: 40px;
+}
+
+#content {
+	margin-top: 20px;
+	padding-left: 20px;
+	border-left: 5px solid #bab9b6;
+	font-size: 1.5em;
+	text-align: justify;
+}
+
+div.button {
+	padding-top: 50%;
+}
+
+.btn-default {
+	font-weight: bold;
+	border: 1px solid black;
+}
+
+.btn-block+.btn-block {
+    margin-top: 30px;
+}
+
+a:nth-of-type(1).btn-default {
+	background-color: #c7dc70;
+}
+
+a:nth-of-type(2).btn-default {
+	background-color: #f3f0e0;
+}
+
+a:nth-of-type(3).btn-default {
+	background-color: #fecf67;
+}
